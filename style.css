@@ -1,0 +1,62 @@
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    width: 90%;
+    height: 300px;
+    position: relative;
+    background-color: #0d2029;
+    overflow: hidden;
+    border-radius: 15px;
+	margin: auto;
+}
+
+#steve {
+    width: 32px;
+    height: 48px;
+    background-color: #0f5cff;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 16px);
+    grid-template-rows: repeat(3, 16px);
+}
+
+#steve .pixel {
+    width: 16px;
+    height: 16px;
+}
+
+.steve-head {
+    background-color: #f5d5a5;
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.steve-body {
+    background-color: #2c3e50;
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.steve-legs {
+    background-color: #34495e;
+    grid-column: span 2;
+    grid-row: 3;
+}
+
+.obstacle {
+    width: 20px;
+    height: 48px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
